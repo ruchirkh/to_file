@@ -11832,27 +11832,33 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#PATO_0001334"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Aulacorthum"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000052"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Brachycorynella"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000096"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Brevicoryne"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000097"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Cavariella"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000098"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid1677",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000004"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Hyperomyzus"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000005"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Lipaphis"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000321"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Myzus"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Neotoxoptera"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Pemphigus"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000284"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000335"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000337"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000392"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Uroleucon"
     } ]
   } ]
 }, {
@@ -11871,7 +11877,52 @@
     "@value" : "Some plants can elongate and grow in areas annually flooded to varying depths. The scale is based on the performance of check varieties. Specify water depth under which the data was recorded."
   } ]
 }, {
-  "@id" : "_:genid1681",
+  "@id" : "_:genid1686",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#PATO_0001334"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000052"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000096"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000097"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000098"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid169",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000171"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "OBSOLETE. A stature and vigor trait (TO:0000133) which is the height of a whole plant (PO:0000003) or another plant structure (PO:0009011)."
+  } ]
+}, {
+  "@id" : "_:genid1692",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000004"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000005"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000321"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid1696",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -11985,23 +12036,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid169",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "TO:cooperl"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000171"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "OBSOLETE. A stature and vigor trait (TO:0000133) which is the height of a whole plant (PO:0000003) or another plant structure (PO:0009011)."
-  } ]
-}, {
   "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -12085,7 +12119,39 @@
     "@value" : "A nutrient sensitivity (TO:0000480) response shown by the plant grown in either an excess or deficient amount of the macronutrient in the growth medium."
   } ]
 }, {
-  "@id" : "_:genid1736",
+  "@id" : "_:genid174",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000177"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "An assay to determine the tolerance exhibited by a plant or a group of plants (population) towards the applied herbicide 2,4-dichlorophenoxyacetic acid (2,4 D)."
+  } ]
+}, {
+  "@id" : "_:genid175",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "TO:moorel"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000178"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Plant sensitivity to soils with acidic conditions (pH<7)."
+  } ]
+}, {
+  "@id" : "_:genid1751",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -12197,38 +12263,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid174",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000177"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "An assay to determine the tolerance exhibited by a plant or a group of plants (population) towards the applied herbicide 2,4-dichlorophenoxyacetic acid (2,4 D)."
-  } ]
-}, {
-  "@id" : "_:genid175",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "TO:moorel"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000178"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Plant sensitivity to soils with acidic conditions (pH<7)."
-  } ]
-}, {
   "@id" : "_:genid176",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -12299,7 +12333,41 @@
     "@value" : "The tolerance exhibited by a plant or a group of plants (population) towards the applied insecticide."
   } ]
 }, {
-  "@id" : "_:genid1790",
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000018"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Sensitivity to the boron content in the growth medium. It plays an important role in cell division."
+  } ]
+}, {
+  "@id" : "_:genid180",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "PO:0009010"
+  }, {
+    "@value" : "TO:moorel"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000184"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A multi-tissue plant structure morphology trait (TO:0000836) which is a quality of a seed (PO:0009010)."
+  } ]
+}, {
+  "@id" : "_:genid1805",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -12407,40 +12475,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid18",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000018"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Sensitivity to the boron content in the growth medium. It plays an important role in cell division."
-  } ]
-}, {
-  "@id" : "_:genid180",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "PO:0009010"
-  }, {
-    "@value" : "TO:moorel"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000184"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A multi-tissue plant structure morphology trait (TO:0000836) which is a quality of a seed (PO:0009010)."
-  } ]
-}, {
   "@id" : "_:genid181",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -12497,7 +12531,22 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#PO_0009066"
   } ]
 }, {
-  "@id" : "_:genid1842",
+  "@id" : "_:genid185",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#is_inferred" : [ {
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000187"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "_:genid184"
+  } ]
+}, {
+  "@id" : "_:genid1857",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -12595,21 +12644,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid185",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#is_inferred" : [ {
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000187"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@id" : "_:genid184"
-  } ]
-}, {
   "@id" : "_:genid186",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -12657,7 +12691,40 @@
     "@value" : "An embryo morphology trait (TO:0000064) which is the absence of embryo in the developing seed."
   } ]
 }, {
-  "@id" : "_:genid1889",
+  "@id" : "_:genid189",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000486"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "IRRI:SES"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000019"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Average height measurements of 10 seedlings, in centimeters from the base of the shoot to the tip of the tallest leaf blade."
+  } ]
+}, {
+  "@id" : "_:genid190",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000931"
+  } ]
+}, {
+  "@id" : "_:genid1904",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -12753,39 +12820,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid189",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000486"
-  } ]
-}, {
-  "@id" : "_:genid19",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "IRRI:SES"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000019"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Average height measurements of 10 seedlings, in centimeters from the base of the shoot to the tip of the tallest leaf blade."
-  } ]
-}, {
-  "@id" : "_:genid190",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000931"
-  } ]
-}, {
   "@id" : "_:genid191",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -12837,7 +12871,41 @@
     "@value" : "Causal agent: Cnaphalocrocis medinalis."
   } ]
 }, {
-  "@id" : "_:genid1935",
+  "@id" : "_:genid194",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "PO:0009009"
+  }, {
+    "@value" : "TO:moorel"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000193"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "An embryo morphology trait (TO:0000064) which is the shape of a plant embryo (PO:0009009)."
+  } ]
+}, {
+  "@id" : "_:genid195",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "PO:0009009"
+  }, {
+    "@value" : "TO:moorel"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000194"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "An embryo shape trait (TO:0000193) which is a globular plant embryo (PO:0009009)."
+  } ]
+}, {
+  "@id" : "_:genid1950",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -12931,40 +12999,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid194",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "PO:0009009"
-  }, {
-    "@value" : "TO:moorel"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000193"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "An embryo morphology trait (TO:0000064) which is the shape of a plant embryo (PO:0009009)."
-  } ]
-}, {
-  "@id" : "_:genid195",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "PO:0009009"
-  }, {
-    "@value" : "TO:moorel"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000194"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "An embryo shape trait (TO:0000193) which is a globular plant embryo (PO:0009009)."
-  } ]
-}, {
   "@id" : "_:genid196",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -13000,7 +13034,24 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001069"
   } ]
 }, {
-  "@id" : "_:genid1980",
+  "@id" : "_:genid199",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "IRRI:SES"
+  }, {
+    "@value" : "ISBN:198506732"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000196"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A polysaccharide content trait (TO:0006007) which is the amount of amylose (CHEBI:28102) in a plant structure (PO:0009011)."
+  } ]
+}, {
+  "@id" : "_:genid1995",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -13092,23 +13143,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid199",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "IRRI:SES"
-  }, {
-    "@value" : "ISBN:198506732"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000196"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A polysaccharide content trait (TO:0006007) which is the amount of amylose (CHEBI:28102) in a plant structure (PO:0009011)."
-  } ]
-}, {
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -13192,7 +13226,22 @@
     "@value" : "A stem strength (TO:0000051) trait which a measure of the fragility of a grass stem (culm; PO:0009047)."
   } ]
 }, {
-  "@id" : "_:genid2024",
+  "@id" : "_:genid203",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000201"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A panicle inflorescence morphology trait (TO:0000847) which is the variation in color of the panicle inflorescence (PO:0030123)."
+  } ]
+}, {
+  "@id" : "_:genid2039",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -13282,21 +13331,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid203",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000201"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A panicle inflorescence morphology trait (TO:0000847) which is the variation in color of the panicle inflorescence (PO:0030123)."
-  } ]
-}, {
   "@id" : "_:genid204",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -13346,7 +13380,41 @@
     "@value" : "Causal agent: Xanthomonas oryzae pv. oryzae."
   } ]
 }, {
-  "@id" : "_:genid2067",
+  "@id" : "_:genid207",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "IRRI:SES"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000205"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Causal agent: Sagotella furcifera. Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting and death of plants. Infested areas in the field may be patchy. (similar to the symptoms of whitebacked planthopper)."
+  } ]
+}, {
+  "@id" : "_:genid208",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "IRRI:SES"
+  }, {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000206"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A leaf attitude (TO:0000206) which is  the angle of a leaf (PO:0025034) measured against the stem."
+  } ]
+}, {
+  "@id" : "_:genid2082",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -13416,40 +13484,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid207",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "IRRI:SES"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000205"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Causal agent: Sagotella furcifera. Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting and death of plants. Infested areas in the field may be patchy. (similar to the symptoms of whitebacked planthopper)."
-  } ]
-}, {
-  "@id" : "_:genid208",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "IRRI:SES"
-  }, {
-    "@value" : "TO:cooperl"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000206"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A leaf attitude (TO:0000206) which is  the angle of a leaf (PO:0025034) measured against the stem."
-  } ]
-}, {
   "@id" : "_:genid209",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
@@ -13493,7 +13527,16 @@
     "@value" : "A whole plant morphology trait (TO:0000398) which is the height of a whole plant (PO:0000003)."
   } ]
 }, {
-  "@id" : "_:genid2100",
+  "@id" : "_:genid211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#RO_0000052"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#PO_0009037"
+  } ]
+}, {
+  "@id" : "_:genid2115",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -13559,15 +13602,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid211",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#RO_0000052"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#PO_0009037"
-  } ]
-}, {
   "@id" : "_:genid212",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#is_inferred" : [ {
@@ -13608,7 +13642,16 @@
     "@value" : "A spikelet floret morphology trait (TO:0000274) which is the number of lemma (PO:0009037) in a spikelet floret (PO:0009082)."
   } ]
 }, {
-  "@id" : "_:genid2131",
+  "@id" : "_:genid214",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#RO_0000052"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#PO_0009038"
+  } ]
+}, {
+  "@id" : "_:genid2146",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -13625,49 +13668,6 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000207"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000358"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000912"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000913"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000914"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000915"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000916"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000917"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000918"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006066"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid214",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#RO_0000052"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#PO_0009038"
-  } ]
-}, {
-  "@id" : "_:genid2147",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000027"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000159"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000204"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000205"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000206"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000207"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000912"
     }, {
@@ -13733,6 +13733,8 @@
     "@list" : [ {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000027"
     }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000159"
+    }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000204"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000205"
@@ -13749,9 +13751,13 @@
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000915"
     }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000916"
+    }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000917"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000918"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006066"
     } ]
   } ]
 }, {
@@ -13764,7 +13770,7 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000225"
   } ]
 }, {
-  "@id" : "_:genid2174",
+  "@id" : "_:genid2177",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -13775,6 +13781,8 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000205"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000206"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000207"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000912"
     }, {
@@ -13799,7 +13807,7 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#PO_0009066"
   } ]
 }, {
-  "@id" : "_:genid2185",
+  "@id" : "_:genid2189",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -13808,6 +13816,8 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000204"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000205"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000206"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000912"
     }, {
@@ -13836,56 +13846,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@id" : "_:genid218"
-  } ]
-}, {
-  "@id" : "_:genid2195",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000033"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000260"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000328"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2199",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000035"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000036"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000037"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000038"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000039"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000040"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000043"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000225"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000296"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000020"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000088"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000147"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000213"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000386"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000413"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0020067"
-    } ]
   } ]
 }, {
   "@id" : "_:genid22",
@@ -13922,6 +13882,30 @@
     "@value" : "A stamen morphology trait (TO:0000215) which is the number of anthers (PO:0009066) in a stamen (PO:0009029)."
   } ]
 }, {
+  "@id" : "_:genid2200",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000027"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000204"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000205"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000912"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000913"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000914"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000915"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000917"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000918"
+    } ]
+  } ]
+}, {
   "@id" : "_:genid221",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -13937,7 +13921,19 @@
     "@value" : "Scored by gel consistency type in mm."
   } ]
 }, {
-  "@id" : "_:genid2216",
+  "@id" : "_:genid2210",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000033"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000260"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000328"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2214",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -13956,6 +13952,8 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000043"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000225"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000296"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000020"
     }, {
@@ -14007,7 +14005,58 @@
     "@value" : "Causal agent: rice grassy stunt virus 1 (RGSV1) and rice grassy stunt virus 2 (RGSV2). Symptoms: RGSV1 causes severe stunting, excessive tillering, pale green to yellow and narrow leaves with small rusty spots. RGSV2 causes severe stunting, excessive tillering, yellow to orange and narrow leaves with small rusty spots."
   } ]
 }, {
-  "@id" : "_:genid2232",
+  "@id" : "_:genid2231",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000035"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000036"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000037"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000038"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000039"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000040"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000043"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000225"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000020"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000088"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000147"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000213"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000386"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000413"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0020067"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid224",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#is_inferred" : [ {
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000214"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#PATO_0000052"
+  } ]
+}, {
+  "@id" : "_:genid2247",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14045,7 +14094,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid224",
+  "@id" : "_:genid225",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#is_inferred" : [ {
     "@value" : "true"
@@ -14057,10 +14106,19 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000214"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#PATO_0000052"
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_1000022"
   } ]
 }, {
-  "@id" : "_:genid2249",
+  "@id" : "_:genid226",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#RO_0000052"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#PO_0009066"
+  } ]
+}, {
+  "@id" : "_:genid2264",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14078,7 +14136,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid225",
+  "@id" : "_:genid227",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#is_inferred" : [ {
     "@value" : "true"
@@ -14090,10 +14148,10 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000214"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_1000022"
+    "@id" : "_:genid226"
   } ]
 }, {
-  "@id" : "_:genid2256",
+  "@id" : "_:genid2271",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14113,16 +14171,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid226",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#RO_0000052"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#PO_0009066"
-  } ]
-}, {
-  "@id" : "_:genid2264",
+  "@id" : "_:genid2279",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14131,59 +14180,6 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000224"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000308"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2268",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000048"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000223"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000227"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid227",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#is_inferred" : [ {
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000214"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@id" : "_:genid226"
-  } ]
-}, {
-  "@id" : "_:genid2272",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000048"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000223"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000227"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000301"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2277",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000049"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000307"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000368"
     } ]
   } ]
 }, {
@@ -14202,7 +14198,64 @@
     "@value" : "An anther morphology trait (TO:1000022) which is the shape (PATO:0000052) of an anther (PO:0009066)."
   } ]
 }, {
-  "@id" : "_:genid2281",
+  "@id" : "_:genid2283",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000048"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000223"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000227"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2287",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000048"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000223"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000227"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000301"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid229",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "PO:0009029"
+  }, {
+    "@value" : "TO:moorel"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000215"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A microsporophyll morphology trait (TO:0000868) which is a quality of a stamen (PO:0009029)."
+  } ]
+}, {
+  "@id" : "_:genid2292",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000049"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000307"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000368"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2296",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14214,7 +14267,43 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid2285",
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "IRRI:SES"
+  }, {
+    "@value" : "PO:0020105"
+  }, {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000024"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A ligule morphology trait (TO:0002748) which is a length of a ligule measured in millimeters from the base of the leaf collar to the tip of the ligule (PO:0020105)."
+  } ]
+}, {
+  "@id" : "_:genid230",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "IRRI:SES"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000217"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Male sterility affected by both temperature and photoperiod."
+  } ]
+}, {
+  "@id" : "_:genid2300",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14268,61 +14357,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid229",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "PO:0009029"
-  }, {
-    "@value" : "TO:moorel"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000215"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A microsporophyll morphology trait (TO:0000868) which is a quality of a stamen (PO:0009029)."
-  } ]
-}, {
-  "@id" : "_:genid23",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "IRRI:SES"
-  }, {
-    "@value" : "PO:0020105"
-  }, {
-    "@value" : "TO:cooperl"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000024"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A ligule morphology trait (TO:0002748) which is a length of a ligule measured in millimeters from the base of the leaf collar to the tip of the ligule (PO:0020105)."
-  } ]
-}, {
-  "@id" : "_:genid230",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "IRRI:SES"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000217"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Male sterility affected by both temperature and photoperiod."
-  } ]
-}, {
   "@id" : "_:genid231",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -14340,7 +14374,24 @@
     "@value" : "Observations are made on staining behavior and number of nuclei in most of the pollen."
   } ]
 }, {
-  "@id" : "_:genid2310",
+  "@id" : "_:genid232",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "IRRI:SES"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000220"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Causal agent: Leptocorisa oratorius. Monitored at growth stage 7-9, resistance is a measure of damaged grains per panicle."
+  } ]
+}, {
+  "@id" : "_:genid2325",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14392,23 +14443,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid232",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "IRRI:SES"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000220"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Causal agent: Leptocorisa oratorius. Monitored at growth stage 7-9, resistance is a measure of damaged grains per panicle."
-  } ]
-}, {
   "@id" : "_:genid233",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -14428,7 +14462,16 @@
     "@value" : "A glume morphology trait (TO:0000869) which is the color of a glume (PO:0009039)."
   } ]
 }, {
-  "@id" : "_:genid2334",
+  "@id" : "_:genid234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000144"
+  } ]
+}, {
+  "@id" : "_:genid2349",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14478,15 +14521,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid234",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000144"
-  } ]
-}, {
   "@id" : "_:genid235",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -14502,54 +14536,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@value" : "A grain yield trait (TO:0000396) which is the amount of whole (3/4 of original length or longer) milled kernels separated from the total amount of milled rice."
-  } ]
-}, {
-  "@id" : "_:genid2357",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000053"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000054"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000055"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000099"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000162"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000281"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000613"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000685"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000686"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000694"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000707"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000908"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000909"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002622"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002625"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002633"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002634"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002694"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002729"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002739"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002746"
-    } ]
   } ]
 }, {
   "@id" : "_:genid236",
@@ -14586,7 +14572,7 @@
     "@value" : "Sensitivity to the iron ion content in the growth medium. It is important for synthesis of chlorophyll and some enzyme activities."
   } ]
 }, {
-  "@id" : "_:genid2379",
+  "@id" : "_:genid2372",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14609,6 +14595,8 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000686"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000694"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000707"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000908"
     }, {
@@ -14670,6 +14658,52 @@
     "@value" : "A measure of either the absence of auricle or the length of auricle being zero."
   } ]
 }, {
+  "@id" : "_:genid2394",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000053"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000054"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000055"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000099"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000162"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000281"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000613"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000685"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000686"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000694"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000908"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000909"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002622"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002625"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002633"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002634"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002694"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002729"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002739"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002746"
+    } ]
+  } ]
+}, {
   "@id" : "_:genid24",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -14706,7 +14740,22 @@
     "@value" : "A root morphology trait (TO:0000043) which is the length of a root (PO:0009005)."
   } ]
 }, {
-  "@id" : "_:genid2400",
+  "@id" : "_:genid241",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000228"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A plant quality trait (TO:0000597) which is the amount of moisture in a plant structure (PO:0009011)."
+  } ]
+}, {
+  "@id" : "_:genid2415",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14738,22 +14787,22 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid241",
+  "@id" : "_:genid242",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "TO:cooperl"
+    "@value" : "Gramene:pankaj_jaiswal"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000228"
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000229"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A plant quality trait (TO:0000597) which is the amount of moisture in a plant structure (PO:0009011)."
+    "@value" : "Sensitivity response on the plant development and the related growth stages by the duration of light, to which the plant has been exposed."
   } ]
 }, {
-  "@id" : "_:genid2414",
+  "@id" : "_:genid2429",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14773,7 +14822,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid242",
+  "@id" : "_:genid243",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
     "@value" : "Gramene:pankaj_jaiswal"
@@ -14782,13 +14831,13 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000229"
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000230"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Sensitivity response on the plant development and the related growth stages by the duration of light, to which the plant has been exposed."
+    "@value" : "Absence of crown roots in the plant."
   } ]
 }, {
-  "@id" : "_:genid2422",
+  "@id" : "_:genid2437",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14807,45 +14856,6 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0020076"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0020088"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid243",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000230"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Absence of crown roots in the plant."
-  } ]
-}, {
-  "@id" : "_:genid2431",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000059"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000060"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000061"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000062"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000063"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000064"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000065"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000322"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000909"
     } ]
   } ]
 }, {
@@ -14870,7 +14880,48 @@
     "@value" : "An endosperm morphology trait (TO:0000575) which is the absence of endosperm (PO:0009089) in the seed (PO:0009010) or grain."
   } ]
 }, {
-  "@id" : "_:genid2441",
+  "@id" : "_:genid2446",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000059"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000060"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000061"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000062"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000063"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000064"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000065"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000322"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000909"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid245",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "IRRI:SES"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000232"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Caused by the interaction of cytoplasmic (mitochondrial) and nuclear genomes. The trait shows non-mendelian inheritance or maternal inheritance."
+  } ]
+}, {
+  "@id" : "_:genid2456",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -14944,23 +14995,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid245",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "IRRI:SES"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000232"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Caused by the interaction of cytoplasmic (mitochondrial) and nuclear genomes. The trait shows non-mendelian inheritance or maternal inheritance."
-  } ]
-}, {
   "@id" : "_:genid246",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -14993,7 +15027,41 @@
     "@value" : "The embryo of the germinating seed does not produce roots."
   } ]
 }, {
-  "@id" : "_:genid2476",
+  "@id" : "_:genid248",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "PO:0020105"
+  }, {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000235"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A ligule morphology trait (TO:0002748) which is the absence of a ligule (PO:0020105)."
+  } ]
+}, {
+  "@id" : "_:genid249",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000237"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Response by the plant in terms of sensitivity to water stress (quality and quantity of water)."
+  } ]
+}, {
+  "@id" : "_:genid2491",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -15063,40 +15131,6 @@
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_1000011"
     } ]
-  } ]
-}, {
-  "@id" : "_:genid248",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "PO:0020105"
-  }, {
-    "@value" : "TO:cooperl"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000235"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A ligule morphology trait (TO:0002748) which is the absence of a ligule (PO:0020105)."
-  } ]
-}, {
-  "@id" : "_:genid249",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000237"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Response by the plant in terms of sensitivity to water stress (quality and quantity of water)."
   } ]
 }, {
   "@id" : "_:genid25",
@@ -15154,7 +15188,24 @@
     "@value" : "A lemma morphology trait (TO:1000023) which is the length of a sterile lemma (PO:0009040)."
   } ]
 }, {
-  "@id" : "_:genid2510",
+  "@id" : "_:genid252",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000241"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A shoot system morphology trait (TO:0000077) which is the number of leaves (PO:0025034) in a shoot system (PO:0009006) of a plant."
+  } ]
+}, {
+  "@id" : "_:genid2525",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -15222,23 +15273,6 @@
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_1000011"
     } ]
-  } ]
-}, {
-  "@id" : "_:genid252",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "TO:cooperl"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000241"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A shoot system morphology trait (TO:0000077) which is the number of leaves (PO:0025034) in a shoot system (PO:0009006) of a plant."
   } ]
 }, {
   "@id" : "_:genid253",
@@ -15275,7 +15309,24 @@
     "@value" : "A coleoptile morphology trait (TO:0000753) which is the the color of a coleoptile (PO:0020033)."
   } ]
 }, {
-  "@id" : "_:genid2543",
+  "@id" : "_:genid255",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "IRRI:SES"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000245"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "No pollen development."
+  } ]
+}, {
+  "@id" : "_:genid2558",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -15343,23 +15394,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid255",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "IRRI:SES"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000245"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "No pollen development."
-  } ]
-}, {
   "@id" : "_:genid256",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -15392,7 +15426,37 @@
     "@value" : "A macronutrient sensitivity (TO:0000176) response shown by the plant either grown in an excess or deficient amount of the primary macronutrient in the growth medium."
   } ]
 }, {
-  "@id" : "_:genid2575",
+  "@id" : "_:genid258",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "IRRI:SES"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000249"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A measure of aging of leaf."
+  } ]
+}, {
+  "@id" : "_:genid259",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000250"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A plant trait (TO:0000387) which is a measure of the active and/or healthy growth and development of a plant stucture (PO:0009011) or a population of plants."
+  } ]
+}, {
+  "@id" : "_:genid2590",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -15412,22 +15476,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid258",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "IRRI:SES"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000249"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A measure of aging of leaf."
-  } ]
-}, {
-  "@id" : "_:genid2583",
+  "@id" : "_:genid2598",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -15440,57 +15489,6 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000105"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000107"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2589",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000068"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000079"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000080"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000137"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid259",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "TO:cooperl"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000250"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A plant trait (TO:0000387) which is a measure of the active and/or healthy growth and development of a plant stucture (PO:0009011) or a population of plants."
-  } ]
-}, {
-  "@id" : "_:genid2594",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000068"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000117"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000118"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000119"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000120"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000121"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000122"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000123"
     } ]
   } ]
 }, {
@@ -15524,33 +15522,39 @@
     "@value" : "A macronutrient sensitivity (TO:0000176) response shown by the plant either grown in an excess or deficient amount of the secondary macronutrient in the growth medium."
   } ]
 }, {
-  "@id" : "_:genid2603",
+  "@id" : "_:genid2604",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000070"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000136"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000137"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2607",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000078"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000068"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000079"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000080"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000081"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000137"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2609",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000068"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000686"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000117"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000694"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000118"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000119"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000120"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000121"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000122"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000123"
     } ]
   } ]
 }, {
@@ -15569,29 +15573,15 @@
     "@value" : "Sensitivity response shown by the plant grown in either the excess or deficient amount of the non-mineral nutrients in the growth medium. These nutrients are found in the air and water."
   } ]
 }, {
-  "@id" : "_:genid2614",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000079"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000080"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000137"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid2618",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000079"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000070"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000080"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000136"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000137"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000364"
     } ]
   } ]
 }, {
@@ -15612,7 +15602,25 @@
     "@value" : "A growth media composition sensitivity (TO:0000238) which is the response of the plant to the pH of the growth media (soil/culture media), whether it be acidic or alkaline."
   } ]
 }, {
-  "@id" : "_:genid2623",
+  "@id" : "_:genid2622",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000078"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000079"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000080"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000081"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000686"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000694"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2629",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -15621,22 +15629,6 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000080"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000137"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000364"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000365"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2629",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000081"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000231"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000686"
     } ]
   } ]
 }, {
@@ -15659,25 +15651,29 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000084"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000079"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000684"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000080"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002700"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000137"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000364"
     } ]
   } ]
 }, {
-  "@id" : "_:genid2637",
+  "@id" : "_:genid2638",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000085"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000079"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000086"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000080"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000087"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000137"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000088"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000364"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000365"
     } ]
   } ]
 }, {
@@ -15696,7 +15692,60 @@
     "@value" : "OBSOLETE. A genetic trait is a distinguishable feature or a characteristic or a quality of character or a phenotypic feature of a developing or developed individual that is linked to a physical or genetic marker"
   } ]
 }, {
-  "@id" : "_:genid2642",
+  "@id" : "_:genid2644",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000081"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000231"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000686"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2648",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000084"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000684"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002700"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid265",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000257"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "The extent of the root branching as determined under variable treatments and environments."
+  } ]
+}, {
+  "@id" : "_:genid2652",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000085"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000086"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000087"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000088"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2657",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -15736,21 +15785,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid265",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000257"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "The extent of the root branching as determined under variable treatments and environments."
-  } ]
-}, {
   "@id" : "_:genid266",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
@@ -15760,7 +15794,24 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002637"
   } ]
 }, {
-  "@id" : "_:genid2660",
+  "@id" : "_:genid267",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "PO:0025034"
+  }, {
+    "@value" : "TO:moorel"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000258"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A leaf morphology trait (TO:0000748) which is the thickness of a leaf (PO:0025034)."
+  } ]
+}, {
+  "@id" : "_:genid2675",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -15784,53 +15835,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid267",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "PO:0025034"
-  }, {
-    "@value" : "TO:moorel"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000258"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A leaf morphology trait (TO:0000748) which is the thickness of a leaf (PO:0025034)."
-  } ]
-}, {
-  "@id" : "_:genid2670",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000100"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000363"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000907"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002620"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002624"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2676",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000101"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000102"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000103"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000104"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid268",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -15848,33 +15852,19 @@
     "@value" : "Tolerance to warm temperatures if plant is exposed to above than permissive temperature limits. Observe differences in vigor along with subtle changes in leaf color. The optimum time to make observations would be the seedling, tillering (sensu Poaceae), flowering and mature stages. Mainly scored in terms of spikelet fertility in grasses."
   } ]
 }, {
-  "@id" : "_:genid2681",
+  "@id" : "_:genid2685",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000105"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000100"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000106"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000363"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000107"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000907"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000108"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2686",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000109"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002620"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000110"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000111"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000112"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000173"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002624"
     } ]
   } ]
 }, {
@@ -15895,35 +15885,31 @@
     "@value" : "Since there is no genetic resistance to birds, the damage can be quantified as it does represent resistance. Factors as flag leaf angle or panicle exsertion are important."
   } ]
 }, {
-  "@id" : "_:genid2692",
+  "@id" : "_:genid2691",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000110"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000101"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000232"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000102"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000233"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000103"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000613"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001069"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001070"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000104"
     } ]
   } ]
 }, {
-  "@id" : "_:genid2699",
+  "@id" : "_:genid2696",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000113"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000105"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000114"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000106"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000700"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000107"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002700"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000108"
     } ]
   } ]
 }, {
@@ -15959,29 +15945,37 @@
     "@value" : "An assay to determine the resistance exhibited by a plant or a group of plants (population) in response to insect infestation as compared to the susceptible and/or the reference plants of the same species."
   } ]
 }, {
-  "@id" : "_:genid2704",
+  "@id" : "_:genid2701",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000116"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000109"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000211"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000110"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000212"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000111"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000213"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000112"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000173"
     } ]
   } ]
 }, {
-  "@id" : "_:genid2709",
+  "@id" : "_:genid2707",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000124"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000110"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000125"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000232"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000126"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000233"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000613"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001069"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001070"
     } ]
   } ]
 }, {
@@ -16000,7 +15994,56 @@
     "@value" : "A panicle inflorescence morphology trait (TO:0000847) which is the shape of a panicle inflorescence (PO:0030123)."
   } ]
 }, {
-  "@id" : "_:genid2713",
+  "@id" : "_:genid2714",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000113"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000114"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000700"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002700"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2719",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000116"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000211"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000212"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000213"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid272",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000536"
+  } ]
+}, {
+  "@id" : "_:genid2724",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000124"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000125"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000126"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2728",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -16017,47 +16060,6 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000149"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000304"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid272",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000536"
-  } ]
-}, {
-  "@id" : "_:genid2721",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000127"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000128"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000248"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000146"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000149"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000304"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2728",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000129"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000130"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000131"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000132"
     } ]
   } ]
 }, {
@@ -16084,35 +16086,21 @@
     "@value" : "A lemma and palea morphology trait (TO:0000079) which is the color of the lemma (PO:0009037) and the palea (PO:0009038)."
   } ]
 }, {
-  "@id" : "_:genid2733",
+  "@id" : "_:genid2736",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000134"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000127"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000135"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000128"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000242"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000248"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000243"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000146"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000244"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2739",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000134"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000149"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000135"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000243"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000244"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000245"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000304"
     } ]
   } ]
 }, {
@@ -16131,7 +16119,71 @@
     "@value" : "Response shown by the plant in the presence of  a light quality stress."
   } ]
 }, {
-  "@id" : "_:genid2745",
+  "@id" : "_:genid2743",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000129"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000130"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000131"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000132"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2748",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000134"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000135"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000242"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000243"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000244"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid275",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000489"
+  } ]
+}, {
+  "@id" : "_:genid2754",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000134"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000135"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000243"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000244"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000245"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid276",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000587"
+  } ]
+}, {
+  "@id" : "_:genid2760",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -16147,16 +16199,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid275",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000489"
-  } ]
-}, {
-  "@id" : "_:genid2751",
+  "@id" : "_:genid2766",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -16170,7 +16213,26 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid2756",
+  "@id" : "_:genid277",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "IRRI:SES"
+  }, {
+    "@value" : "TO:moorel"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000266"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "An endosperm morphology trait (TO:0000575) which is the chalkiness of an endosperm (PO:0009089) on the scale of (a) white belly, (b) white center or (c) white back."
+  } ]
+}, {
+  "@id" : "_:genid2771",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -16230,34 +16292,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid276",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000050"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000587"
-  } ]
-}, {
-  "@id" : "_:genid277",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "IRRI:SES"
-  }, {
-    "@value" : "TO:moorel"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000266"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "An endosperm morphology trait (TO:0000575) which is the chalkiness of an endosperm (PO:0009089) on the scale of (a) white belly, (b) white center or (c) white back."
-  } ]
-}, {
   "@id" : "_:genid278",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -16277,7 +16311,26 @@
     "@value" : "An inflorescence morphology trait (TO:0000373) which is the variation in the type of inflorescence, whether due to extent and number of branching, branch angles or modified form of the inflorescence (PO:0009049)."
   } ]
 }, {
-  "@id" : "_:genid2784",
+  "@id" : "_:genid279",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "PO:0009049"
+  }, {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000268"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "An inflorescence morphology trait (TO:0000373) which is the shape of an inflorescence (PO:0009049)."
+  } ]
+}, {
+  "@id" : "_:genid2799",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -16329,25 +16382,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid279",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "PO:0009049"
-  }, {
-    "@value" : "TO:cooperl"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000268"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "An inflorescence morphology trait (TO:0000373) which is the shape of an inflorescence (PO:0009049)."
-  } ]
-}, {
   "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -16380,40 +16414,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@value" : "A grain weight (TO:0000919) which is the weight of a sample of 100 grains (caryopsis fruit; PO:0030104), with the caryopsis hull (PO:0006000)."
-  } ]
-}, {
-  "@id" : "_:genid2808",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000151"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000152"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000153"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000154"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000155"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000156"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000250"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000371"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000442"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000559"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000633"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000737"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001034"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002756"
-    } ]
   } ]
 }, {
   "@id" : "_:genid281",
@@ -16458,6 +16458,8 @@
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000155"
     }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000156"
+    }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000250"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000371"
@@ -16491,45 +16493,35 @@
     "@value" : "An inflorescence morphology trait (TO:0000373) trait which is the length of an inflorescence (PO:0009049)."
   } ]
 }, {
-  "@id" : "_:genid2837",
+  "@id" : "_:genid2838",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000159"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000151"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000160"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000152"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000356"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000153"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000357"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000154"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000051"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000155"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000056"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000250"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000132"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000371"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000145"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000442"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000339"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000559"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000404"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000633"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000560"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000737"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000576"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001034"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000577"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000879"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000892"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000893"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000952"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000953"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002756"
     } ]
   } ]
 }, {
@@ -16571,7 +16563,7 @@
     "@value" : "A flower morphology trait (TO:0000499) which is a quality of a spikelet floret (PO:0009082)."
   } ]
 }, {
-  "@id" : "_:genid2856",
+  "@id" : "_:genid2852",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -16579,11 +16571,37 @@
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000160"
     }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000356"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000357"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000051"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000056"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000132"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000145"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000339"
+    }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000404"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000560"
     }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000576"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000577"
+    }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000879"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000892"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000893"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000952"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000953"
     } ]
   } ]
 }, {
@@ -16608,7 +16626,38 @@
     "@value" : "A collective phyllome structure morphology trait (TO:0000845) which is a quality of a perianth (PO:0009058)."
   } ]
 }, {
-  "@id" : "_:genid2862",
+  "@id" : "_:genid287",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000276"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Becoming tolerant to drought like conditions of minimal or no water content in the growth environment."
+  } ]
+}, {
+  "@id" : "_:genid2871",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000159"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000160"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000404"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000560"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000879"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2877",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -16674,21 +16723,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid287",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000276"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Becoming tolerant to drought like conditions of minimal or no water content in the growth environment."
-  } ]
-}, {
   "@id" : "_:genid288",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -16719,42 +16753,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@value" : "The ratio determined from the parameters evaluated for root length and the shoot length in a study."
-  } ]
-}, {
-  "@id" : "_:genid2893",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000161"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000162"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000163"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000085"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000446"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000652"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000709"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000721"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000735"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000824"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000828"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002663"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002681"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002722"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006014"
-    } ]
   } ]
 }, {
   "@id" : "_:genid29",
@@ -16793,7 +16791,73 @@
     "@value" : "A root morphology trait (TO:0000043) which is the weight of a root (PO:0009005)."
   } ]
 }, {
-  "@id" : "_:genid2909",
+  "@id" : "_:genid2908",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000161"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000162"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000163"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000085"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000446"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000652"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000709"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000721"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000735"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000824"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000828"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002663"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002681"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002722"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006014"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid291",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "IRRI:SES"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000280"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Represents the seedling growth of the plant."
+  } ]
+}, {
+  "@id" : "_:genid292",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000281"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "The trait associated with an assay to determine the affected metabolite's profile."
+  } ]
+}, {
+  "@id" : "_:genid2924",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -16815,22 +16879,22 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid291",
+  "@id" : "_:genid293",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "IRRI:SES"
+    "@value" : "Gramene:pankaj_jaiswal"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000280"
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000282"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Represents the seedling growth of the plant."
+    "@value" : "OBSOLETE: The trait associated with an assay to determine the effected enzymatic activity and protein content."
   } ]
 }, {
-  "@id" : "_:genid2918",
+  "@id" : "_:genid2933",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -16864,64 +16928,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid292",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000281"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "The trait associated with an assay to determine the affected metabolite's profile."
-  } ]
-}, {
-  "@id" : "_:genid293",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000282"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "OBSOLETE: The trait associated with an assay to determine the effected enzymatic activity and protein content."
-  } ]
-}, {
-  "@id" : "_:genid2933",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000171"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000172"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000905"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000990"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2938",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000175"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000176"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000177"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000912"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid294",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -16941,27 +16947,17 @@
     "@value" : "A plant trait (TO:0000387) which is a process quality (PATO:0001236) of a biological process (GO:0008150) which occurs in a plant anatomical entity (PO:0025131), a cellular component (GO:0005575), or during a plant structure development stage (PO:0009012)."
   } ]
 }, {
-  "@id" : "_:genid2943",
+  "@id" : "_:genid2948",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000180"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000171"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000181"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000172"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000182"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2947",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000183"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000905"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000184"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000185"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000990"
     } ]
   } ]
 }, {
@@ -16982,39 +16978,29 @@
     "@value" : "Catalysis of the reaction: ATP + alpha-D-glucose 1-phosphate = diphosphate + ADP-glucose."
   } ]
 }, {
-  "@id" : "_:genid2951",
+  "@id" : "_:genid2953",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000185"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000175"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000360"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000176"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000128"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000177"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000143"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000912"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2958",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000180"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000153"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000181"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000327"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000352"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000442"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000453"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000457"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000697"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000852"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000894"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001041"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0020123"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000182"
     } ]
   } ]
 }, {
@@ -17033,11 +17019,25 @@
     "@value" : "Measure of sensitivity of a plant if placed under submergence condition."
   } ]
 }, {
-  "@id" : "_:genid2967",
+  "@id" : "_:genid2962",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000183"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000184"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000185"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2966",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000185"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000360"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000128"
     }, {
@@ -17097,23 +17097,33 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000186"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000185"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002664"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000128"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006060"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2986",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000188"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000143"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000189"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000153"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000190"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000327"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000352"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000442"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000453"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000457"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000697"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000852"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000894"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001041"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0020123"
     } ]
   } ]
 }, {
@@ -17134,41 +17144,15 @@
     "@value" : "An amylase activity trait (TO:0000703) which is the quality of the endohydrolysis of 1,4-a-D-glucosidic linkages in polysaccharides containing three or more 1,4-a-linked D-glucose units."
   } ]
 }, {
-  "@id" : "_:genid2990",
+  "@id" : "_:genid2997",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000191"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000186"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000192"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002664"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000671"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002616"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2995",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000193"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000194"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000195"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid2999",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000196"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000197"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000263"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006060"
     } ]
   } ]
 }, {
@@ -17223,23 +17207,29 @@
     "@value" : "A carotenoid content trait (TO:0000496) which is the amount of carotene (CHEBI:23042) in a plant structure (PO:0009011)."
   } ]
 }, {
-  "@id" : "_:genid3003",
+  "@id" : "_:genid3001",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000201"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000188"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000202"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000189"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000202"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000190"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000191"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000430"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000192"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000483"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000671"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006068"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0010001"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002616"
     } ]
   } ]
 }, {
@@ -17260,7 +17250,68 @@
     "@value" : "A phytochemical compound content trait (TO:0000674) which is the amount of flavonoid (CHEBI:47916) in a plant structure (PO:0009011)."
   } ]
 }, {
-  "@id" : "_:genid3011",
+  "@id" : "_:genid3010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000193"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000194"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000195"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000196"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000197"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000263"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000201"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000202"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000202"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000430"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000483"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006068"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0010001"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid302",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000291"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A metabolite content trait (TO:0000281) which is the amount of carbohydrate (CHEBI:16646) in a plant structure (PO:0009011)."
+  } ]
+}, {
+  "@id" : "_:genid3026",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -17284,24 +17335,24 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid302",
+  "@id" : "_:genid303",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
     "@value" : "Gramene:pankaj_jaiswal"
   }, {
-    "@value" : "TO:cooperl"
+    "@value" : "IRRI:SES"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000291"
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000292"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A metabolite content trait (TO:0000281) which is the amount of carbohydrate (CHEBI:16646) in a plant structure (PO:0009011)."
+    "@value" : "Causal agent: Mycoplasma. Symptoms: pale yellow, droopy leaves, excessive tillering and stunting."
   } ]
 }, {
-  "@id" : "_:genid3021",
+  "@id" : "_:genid3036",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -17331,24 +17382,24 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid303",
+  "@id" : "_:genid304",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
     "@value" : "Gramene:pankaj_jaiswal"
   }, {
-    "@value" : "IRRI:SES"
+    "@value" : "TO:cooperl"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000292"
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000293"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Causal agent: Mycoplasma. Symptoms: pale yellow, droopy leaves, excessive tillering and stunting."
+    "@value" : "A chlorophyll content trait (TO:0000495) which is the chlorophyll a content in a plant structure (PO:0009011)."
   } ]
 }, {
-  "@id" : "_:genid3034",
+  "@id" : "_:genid3049",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -17376,35 +17427,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid304",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "TO:cooperl"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000293"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A chlorophyll content trait (TO:0000495) which is the chlorophyll a content in a plant structure (PO:0009011)."
-  } ]
-}, {
-  "@id" : "_:genid3046",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000214"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000215"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000216"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid305",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -17424,7 +17446,36 @@
     "@value" : "A leaf sheath auricle morphology trait (TO:0002717) which is the color of a leaf sheath auricle (PO:0020106)."
   } ]
 }, {
-  "@id" : "_:genid3050",
+  "@id" : "_:genid306",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  }, {
+    "@value" : "TO:cooperl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000295"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A chlorophyll content trait (TO:0000495) which is the chlorophyll b content in a plant structure (PO:0009011)."
+  } ]
+}, {
+  "@id" : "_:genid3061",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000214"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000215"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000216"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3065",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -17454,24 +17505,22 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid306",
+  "@id" : "_:genid307",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
     "@value" : "Gramene:pankaj_jaiswal"
-  }, {
-    "@value" : "TO:cooperl"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000295"
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000296"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "A chlorophyll content trait (TO:0000495) which is the chlorophyll b content in a plant structure (PO:0009011)."
+    "@value" : "Represents the growth of plant. Used to evaluate genetic material under stress and non-stress conditions, several factors may interact, influencing the seedling vigor (e.g. tillering ability, plant height, etc)."
   } ]
 }, {
-  "@id" : "_:genid3063",
+  "@id" : "_:genid3078",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -17503,33 +17552,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid307",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000296"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Represents the growth of plant. Used to evaluate genetic material under stress and non-stress conditions, several factors may interact, influencing the seedling vigor (e.g. tillering ability, plant height, etc)."
-  } ]
-}, {
-  "@id" : "_:genid3077",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000237"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000238"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000239"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid308",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -17545,52 +17567,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@value" : "A chlorophyll content trait (TO:0000495) which is the ratio of chlorophyll a to chlorophyll b in a plant structure (PO:0009011)."
-  } ]
-}, {
-  "@id" : "_:genid3081",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000250"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000759"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0011010"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid3085",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000251"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000769"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000771"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid3089",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000257"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000258"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002601"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002602"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002603"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002604"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002614"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002615"
-    } ]
   } ]
 }, {
   "@id" : "_:genid309",
@@ -17612,39 +17588,27 @@
     "@value" : "A leaf lamina morphology trait (TO:0000829) which is the color of the leaf lamina (PO:0020039)."
   } ]
 }, {
-  "@id" : "_:genid3098",
+  "@id" : "_:genid3092",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000259"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000237"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000266"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000238"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000068"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000239"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3096",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000250"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000096"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000759"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000202"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000243"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000296"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000355"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000425"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000428"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000430"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000434"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000464"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000515"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0010001"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0011010"
     } ]
   } ]
 }, {
@@ -17680,6 +17644,40 @@
     "@value" : "Amount of glucose present in the plant or plant part."
   } ]
 }, {
+  "@id" : "_:genid3100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000251"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000769"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000771"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000257"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000258"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002601"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002602"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002603"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002604"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002614"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002615"
+    } ]
+  } ]
+}, {
   "@id" : "_:genid311",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -17695,11 +17693,13 @@
     "@value" : "The xanthophyll content in a plant or plant part."
   } ]
 }, {
-  "@id" : "_:genid3114",
+  "@id" : "_:genid3113",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000259"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000266"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000068"
     }, {
@@ -17750,11 +17750,33 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000261"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000259"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000303"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000068"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000305"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000096"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000202"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000243"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000296"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000355"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000425"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000428"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000430"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000434"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000464"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000515"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0010001"
     } ]
   } ]
 }, {
@@ -17765,32 +17787,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000391"
-  } ]
-}, {
-  "@id" : "_:genid3133",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000261"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000303"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000305"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000311"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid3138",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000264"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006020"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006030"
-    } ]
   } ]
 }, {
   "@id" : "_:genid314",
@@ -17812,19 +17808,15 @@
     "@value" : "A seed morphology trait (TO:0000184) which is the thickness of a seed (PO:0009010)."
   } ]
 }, {
-  "@id" : "_:genid3142",
+  "@id" : "_:genid3144",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000267"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000261"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000362"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000303"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000421"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000497"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000639"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000305"
     } ]
   } ]
 }, {
@@ -17832,13 +17824,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000267"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000261"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000421"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000303"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000497"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000305"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000639"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000311"
     } ]
   } ]
 }, {
@@ -17863,23 +17855,27 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000268"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000264"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000190"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006020"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000880"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006030"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3157",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000267"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000888"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000362"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000889"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000421"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000890"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000497"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000902"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000903"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000904"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000639"
     } ]
   } ]
 }, {
@@ -17906,6 +17902,59 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000267"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000421"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000497"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000639"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3168",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000268"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000190"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000880"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000888"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000889"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000890"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000902"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000903"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000904"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid317",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "ISBN:198506732"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000307"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Amount of hexose present in the plant or plant part."
+  } ]
+}, {
+  "@id" : "_:genid3178",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000269"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000346"
@@ -17929,65 +17978,6 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000921"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002639"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid317",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "ISBN:198506732"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000307"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Amount of hexose present in the plant or plant part."
-  } ]
-}, {
-  "@id" : "_:genid3176",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000270"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000272"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000273"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000065"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000084"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000115"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000227"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000233"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000278"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000279"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000306"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000471"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000510"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000519"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001051"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001056"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002710"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0020087"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_1000007"
     } ]
   } ]
 }, {
@@ -18023,11 +18013,15 @@
     "@value" : "Self-incompatibility allows plants to recognize and reject pollen from the same plant, thereby reducing inbreeding."
   } ]
 }, {
-  "@id" : "_:genid3196",
+  "@id" : "_:genid3191",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000270"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000272"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000273"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000065"
     }, {
@@ -18112,7 +18106,64 @@
     "@value" : "Catalysis of the reaction: 2 L-glutamate + NAD+ = L-glutamine + 2-oxoglutarate + NADH + H+."
   } ]
 }, {
-  "@id" : "_:genid3214",
+  "@id" : "_:genid3211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000270"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000065"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000084"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000115"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000227"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000233"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000278"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000279"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000306"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000471"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000510"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000519"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001051"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001056"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002710"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0020087"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_1000007"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid322",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "EC:1.11.1.7"
+  }, {
+    "@value" : "GO:0004601"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000313"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Catalysis of the reaction: donor + hydrogen peroxide = oxidized donor + 2 H2O."
+  } ]
+}, {
+  "@id" : "_:genid3229",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -18160,23 +18211,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid322",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "EC:1.11.1.7"
-  }, {
-    "@value" : "GO:0004601"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000313"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Catalysis of the reaction: donor + hydrogen peroxide = oxidized donor + 2 H2O."
-  } ]
-}, {
   "@id" : "_:genid323",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -18194,20 +18228,6 @@
     "@value" : "Catalysis of the reaction: 2-phospho-D-glycerate = 3-phospho-D-glycerate."
   } ]
 }, {
-  "@id" : "_:genid3236",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000280"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000281"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000282"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000283"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid324",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -18221,34 +18241,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@value" : "The resistance exhibited by a plant or a group of plants (population) in response to the disease caused by a bacterial pathogen infection as compared to the susceptible and/or the reference plants of the same species."
-  } ]
-}, {
-  "@id" : "_:genid3241",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000284"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000335"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000337"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid3245",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000294"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000295"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000369"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000370"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000371"
-    } ]
   } ]
 }, {
   "@id" : "_:genid325",
@@ -18270,13 +18262,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000300"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000280"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000543"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000281"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001025"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000282"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0012002"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000283"
     } ]
   } ]
 }, {
@@ -18284,11 +18276,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000317"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000284"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000202"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000335"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000435"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000337"
     } ]
   } ]
 }, {
@@ -18311,6 +18303,63 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000294"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000295"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000369"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000370"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000371"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3266",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000300"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000543"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001025"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0012002"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid327",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Gramene:pankaj_jaiswal"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000318"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Amount of reducing sugar present in the plant or plant part."
+  } ]
+}, {
+  "@id" : "_:genid3271",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000317"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000202"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000435"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3275",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000330"
     }, {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000629"
@@ -18319,7 +18368,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid3264",
+  "@id" : "_:genid3279",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -18345,43 +18394,6 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid327",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@value" : "Gramene:pankaj_jaiswal"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000318"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@value" : "Amount of reducing sugar present in the plant or plant part."
-  } ]
-}, {
-  "@id" : "_:genid3275",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000346"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000345"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000483"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000488"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000587"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002648"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006068"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006069"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid328",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -18395,22 +18407,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@value" : "Amount of Rubisco enzyme or protein present in a given plant or the plant part."
-  } ]
-}, {
-  "@id" : "_:genid3284",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000355"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000895"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000896"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000897"
-    }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001029"
-    } ]
   } ]
 }, {
   "@id" : "_:genid329",
@@ -18434,25 +18430,37 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000079"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000346"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000215"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000345"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000860"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000483"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000863"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000488"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000864"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000587"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000865"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002648"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002600"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006068"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006009"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006069"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3299",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000355"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006012"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000895"
     }, {
-      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006038"
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000896"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000897"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0001029"
     } ]
   } ]
 }, {
@@ -18484,6 +18492,32 @@
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@value" : "A ratio of the amount of rubisco protein to that of the total nitrogen content in a plant or plant part."
+  } ]
+}, {
+  "@id" : "_:genid3305",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000079"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000215"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000860"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000863"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000864"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000865"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0002600"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006009"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006012"
+    }, {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006038"
+    } ]
   } ]
 }, {
   "@id" : "_:genid331",
@@ -30305,6 +30339,51 @@
   "@id" : "http://purl.org/dc/elements/1.1/date",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Acyrthosiphon_lactucae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000392"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Acyrthosiphon_pisum"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Acyrthosiphon_pisum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000392"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Aphis_fabae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000284"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000285"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Aulacorthum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Aulacorthum_circumflexum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Aulacorthum"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Aulacorthum_solani"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Aulacorthum_solani",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Aulacorthum"
+  } ]
+}, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000001",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -30441,6 +30520,30 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#BFO_0000004"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Brachycorynella",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Brachycorynella_asparagi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Brachycorynella"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Brevicoryne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Brevicoryne_brassicae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Brevicoryne"
   } ]
 }, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#CARO_0000000",
@@ -36645,6 +36748,18 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#CHEBI_79091"
   } ]
 }, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Cavariella",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Cavariella_aegopodii",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Cavariella"
+  } ]
+}, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#ENVO_00000000",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -38211,6 +38326,18 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#GO_0043455"
   } ]
 }, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Hyperomyzus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Hyperomyzus_lactucae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Hyperomyzus"
+  } ]
+}, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#IAO_0000115",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -38224,6 +38351,39 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "term replaced by"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Lipaphis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Lipaphis_pseudobrassicae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Lipaphis"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Myzus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Myzus_nicotianae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Myzus"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Myzus_persicae"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Myzus_persicae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Myzus"
   } ]
 }, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#NCBITaxon_1",
@@ -38848,6 +39008,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#NCBITaxon_2726947"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Neotoxoptera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Neotoxoptera_formosana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Neotoxoptera"
   } ]
 }, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#OBI_0100026",
@@ -52856,6 +53028,18 @@
     "@id" : "http://www.geneontology.org/formats/oboInOwl#PO_0009049"
   } ]
 }, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Pemphigus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Pemphigus_bursarius",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Pemphigus"
+  } ]
+}, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#RO_0000052",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
@@ -57915,6 +58099,18 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000148"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#RZTO_0000392",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "RZTO:0000392"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Acyrthosiphon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
   } ]
 }, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
@@ -97637,6 +97833,18 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0000604"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Uroleucon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#TO_0006067"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#Uroleucon_sonchi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#Uroleucon"
   } ]
 }, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
